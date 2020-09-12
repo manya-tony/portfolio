@@ -11,7 +11,7 @@
             language="HTML/jQuery/Backbone.js/Vue.js"
             period="2019/12/27-2020/1/7"
             text1="jQuery、Backbone.js、Vue.jsの3つのJavascriptフレームワークでTODOリストを作ってみることで、それぞれのフレームワークの書き方や構造の違いを学びました。"
-            text2="その中でVue.jsが比較的あつかいやすくかったので、まずはVue.jsを把握していこうということで、以降のアウトプットではVue.jsを積極的に使っていきました。"
+            text2="その中で比較的あつかいやすかったVue.jsをまずは習得していこうと、以降のアウトプットではVue.jsを積極的に使っていきました。"
             text3="【機能】TODOリストのCRUD処理、ソート、チェック"
             text4=""
             github="https://github.com/manya-tony/todo3"

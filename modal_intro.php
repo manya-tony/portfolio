@@ -10,8 +10,8 @@ modal intro
             <h1 class="p-introModal__title u-mb__10">なすまなみ</h1>
             <h2 class="p-introModal__title -s u-mb__30">nasu manami</h2>
             <p class="p-introModal__text u-mb__30">
-                ゲーム会社勤務のグラフィックデザイナー（元UIデザイナー）の1児の母。デザイン以外のお仕事がしてみたくて、2019年2月よりプログラミング学習をスタート。
-                独学＆オンラインプログラミングスクールにて、HTML、CSS、Javascript、jQuery、PHP言語を学び、Laravel、Vue.jsを使ってWEBサービスを開発しました。現在もプログラミング学習継続中。<br /><br />
+                ゲーム会社勤務のグラフィックデザイナー（元UIデザイナー）。デザイン以外のお仕事がしてみたくて、2019年2月よりプログラミング学習をスタート。
+                独学＆オンラインプログラミングスクールにて、HTML、CSS、Javascript、jQuery、PHP言語を学び、Laravel、Vue.jsを使ってWEBサービスを開発しました。現在もプログラミング学習継続中です。<br /><br />
                 プログラミング学習や読書、映画鑑賞のきろくなど、ほぼ毎日ツイートしています。
             </p>
             <!-- ボタン -->
