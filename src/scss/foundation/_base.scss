@@ -1,0 +1,26 @@
+* {
+    font-family: $font-family;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: $font-family;
+}
+
+h1, h2, h3 {
+    color: $gray;
+    letter-spacing: .2rem;
+}
+
+p, span, a {
+    color: $gray;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: .1rem;
+}

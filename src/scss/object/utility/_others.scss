@@ -1,0 +1,23 @@
+// display
+.u-dp__flex { 
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    align-items: center;
+}
+
+// hr
+.u-hr__dashed {
+    border: none;
+    border-top: 1px dashed $gray;
+    color: #fff;
+}
+
+// object-fit
+.u-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* IE対策 */
+	font-family: 'object-fit: cover;';
+}

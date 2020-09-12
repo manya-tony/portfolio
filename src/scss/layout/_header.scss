@@ -1,0 +1,75 @@
+.l-header {
+    width: 100%;
+    background: rgba(255,255,255,.8);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.l-header__container {
+    max-width: 1000px;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    @include media(m) {
+        display: block;
+    }
+    @include media(s) {
+        padding: 0;
+    }
+}
+.l-header__logo {
+    flex: 2;
+    padding: 10px 0;
+    @include media(m) {
+        text-align: center;
+    }
+    a {
+        font-family: $font-family-sp;
+        font-size: 3rem;
+        color: $purple;
+        @include media(s) {
+            font-size: 2.5rem;
+        }
+    }
+}
+.l-header__navWrap {
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    @include media(s) {
+        display: block;
+    }
+} 
+.l-header__nav {
+    flex: 3.5;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+    li a {
+        color: $gray;
+        transition: opacity .3s;
+        &:hover {
+            transition: opacity .3s;
+            opacity: .5
+        }
+    }
+}
+.l-header__contact {
+    flex: 1.5;
+    background: $purple;
+    text-align: center;
+    transition: opacity .3s;
+    &:hover {
+        transition: opacity .3s;
+        opacity: .8
+    }
+    a {
+        display: block;
+        padding: 10px 0;
+        color: $white;
+        font-size: 1.6rem;
+    }
+}

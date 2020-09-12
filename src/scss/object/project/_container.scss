@@ -1,0 +1,12 @@
+.p-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    &.-s {
+        max-width: 750px;
+    }
+    &.-ss {
+        max-width: 550px;
+    }
+}

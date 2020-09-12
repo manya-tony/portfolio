@@ -1,0 +1,195 @@
+.p-modal {
+    width: 60%;
+    max-height: 90%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    padding: 5rem 7rem;
+    background: $white;
+    border-radius: 3rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 5%;
+    left: 20%;
+    z-index: 102;
+    display: none;
+    &::-webkit-scrollbar {
+        display:none;
+    }
+    &.-member {
+        top: 15%;
+    }
+    @include media(xl) {
+        width: 70%;
+        left: 15%;
+    }
+    @include media(l) {
+        width: 80%;
+        left: 10%;
+    }
+    @include media(m) {
+        width: 90%;
+        left: 5%;
+    }
+    @include media(s) {
+        padding: 3rem;
+    }
+}
+.p-modal__closeBtn {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    z-index: 103;
+    font-size: 4rem;
+    color: $light-gray;
+    cursor: pointer;
+    @include media(s) {
+        font-size: 3rem;
+        top: .5rem;
+        right: 1rem;
+    }
+}
+
+// intro
+.p-introModal__img {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.p-introModal__title {
+    font-size: 5rem;
+    letter-spacing: .5rem;
+    text-align: center;
+    &.-s {
+        font-size: 1.6rem;
+        letter-spacing: .2rem;
+    }
+    @include media(s) {
+        font-size: 3rem;
+    }
+}
+.p-introModal__text {
+    line-height: 2rem;
+    letter-spacing: .1rem;
+}
+.p-introModal__table {
+    width: 100%;
+    &.-tr {
+        border-bottom: 1px solid $gray;
+    }
+    tr {
+        width: 100%;
+        th, td {
+            color: $gray;
+            font-size: 1.4rem;
+            padding: .5rem 0;
+            letter-spacing: .1rem;
+            line-height: 1.8rem;
+        }
+        th {
+            text-align: left;
+            width: 30%;
+        }
+        td {
+            padding-left: 1rem;
+            width: 70%;
+        }
+    }
+}
+
+// works
+.p-worksModal__imgWrap {
+    width: 100%;
+    height: 40rem;
+    border-radius: 3rem;
+    overflow: hidden;
+    position: relative;
+    @include media(xl) {
+        height: 35rem;
+    }
+    @include media(m) {
+        height: 30rem;
+    }
+    @include media(s) {
+        height: 25rem;
+    }
+    @include media(xs) {
+        height: 15rem;
+    }
+}
+.p-worksModal__mv,
+.p-worksModal__img {
+    position: absolute;
+    top: 0;
+}
+.p-worksModal__img {
+    opacity: 0;
+}
+.p-worksModal__listWrap {
+    display: flex;
+}
+.p-worksModal__list {
+    flex: 1;
+    height: 10rem;
+    border-radius: 5rem;
+    margin-right: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .2s;
+    &:last-child {
+        margin-right: 0;
+    }
+    &:hover {
+        transition: all .2s;
+        box-shadow: 0 0 20px rgba(0,0,0,.3);
+        transform: scale(1.05);
+    }
+    @include media(s) {
+        height: 5rem;
+    }
+}
+.p-modal__frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: $light-gray;
+    border-radius: 10px;
+}
+.p-modal__item2 {
+    text-align: center;
+    padding-left: 2rem;
+}
+.p-modal__item2--name {
+    font-size: 2rem;
+}
+.p-modal__title {
+    font-size: 2rem;
+    line-height: 2.6rem;
+}
+.p-modal__name {
+    font-size: 2.6rem;
+    font-weight: bold;
+    text-align: center;
+}
+.p-modal__kana {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.p-modal__text {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.p-modal__back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: $black;
+    opacity: .5;
+    z-index: 101;
+    display: none;
+}

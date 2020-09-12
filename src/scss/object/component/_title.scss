@@ -1,0 +1,26 @@
+.c-title__wrap {
+    text-align: center;
+}
+.c-title {
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: .5rem;
+    color: $purple;
+    font-family: $font-family-sp;
+    &.-white {
+        color: $white;
+    }
+    @include media(m) {
+        font-size: 5rem;
+    }
+    @include media(s) {
+        letter-spacing: .2rem;
+    }
+    @include media(xs) {
+        font-size: 3.5rem;
+        letter-spacing: .1rem;
+    }
+}
+.c-title--sub {
+    letter-spacing: .5rem;
+}

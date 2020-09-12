@@ -1,0 +1,135 @@
+// ===========================
+// 背景装飾
+// ===========================
+.p-main__back {
+    width: 100%;
+    &.-main {
+        background: $white;
+        padding: 5rem 0;
+        @include media(s) {
+            padding: 0;
+        }
+    }
+    &.-top {
+        background: center / contain no-repeat, url("../img/distImg/back2.png");
+        height: 200px;
+    }
+    &.-bottom {
+        background: center / contain no-repeat, url("../img/distImg/back3.png");
+        height: 200px;
+    }
+}
+
+
+// ===========================
+// タイトル＆自己紹介
+// ===========================
+.p-main__intro--title {
+    text-align: center;
+    letter-spacing: .5rem;
+    &.-h1 {
+        font-size: 7rem;
+        line-height: 14rem;
+        color: $purple;
+        @include media(s) {
+            font-size: 6rem;
+        }
+        @include media(xs) {
+            font-size: 4rem;
+            line-height: 10rem;
+        }
+    }
+    &.-h2 {
+        font-size: 1.6rem;
+        letter-spacing: .3rem;
+    }
+    &.-h3 {
+        font-size: 3rem;
+        @include media(xs) {
+            font-size: 2rem;
+        }
+    }
+    &.-s {
+        font-size: 3rem;
+        margin-left: -2rem;
+        @include media(xs) {
+            font-size: 2rem;
+            letter-spacing: 0;
+            margin-left: -1rem;
+        }
+    }
+}
+.p-main__intro--imgWrap {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+// ===========================
+// PICKUP WORK ピックアップ実績
+// ===========================
+.p-main__pickup {
+    width: 100%;
+    // background: $white;
+}
+.p-main__pickup--imgWrap {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow .3s;
+    &:hover {
+        box-shadow: 0 0 20px rgba(0,0,0,.3);
+        transition: box-shadow .3s;
+    }
+    img {
+        transition: transform .3s;
+        &:hover {
+            transition: transform .3s;
+            transform: scale(1.2);
+        }
+    }
+}
+.p-main__pickup--textWrap {
+    text-align: center;
+    h3 {
+        font-size: 2.6rem;
+        line-height: 3.4rem;
+        @include media(xs) {
+            font-size: 2rem;
+            line-height: 2.6rem;
+        }
+    }
+}
+
+
+// ===========================
+// WORKS 作品集
+// ===========================
+.p-main__works--itemWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+// ===========================
+// CONTACT お問いあわせ
+// ===========================
+
+
+// ===========================
+// フェードイン
+// ===========================
+.p-main__section {
+    opacity: 0;
+    transform : translate(0, 50px);
+    transition : all .8s ease-out;
+}
+.fadein {
+    opacity: 1;
+    transform: translate(0, 0);
+}

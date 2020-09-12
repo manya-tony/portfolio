@@ -1,0 +1,30 @@
+.p-itemList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+	-ms-flex-pack: start;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.p-itemList__frame {
+    border: 1px solid $gray;
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+.p-itemDetail__topImg {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+.p-itemDetail__explain {
+    border: 1px solid $black;
+    padding: 1rem 2.6rem 2.6rem 2.6rem;
+    box-sizing: border-box;
+    white-space: pre-line;
+    line-break:strict;
+}

@@ -1,0 +1,51 @@
+// Body
+$body-bg: #F0F0F0;
+
+// Typography
+$font-family-sp: 'M PLUS Rounded 1c', sans-serif;
+$font-family: 'M PLUS Rounded 1c', 'Noto Sans JP', 'Meiryo', sans-serif;
+$font-size-base: 62.5%;
+$line-height-base: 1.6rem;
+
+// Colors
+$white: #fff;
+$purple: #6E31FF;
+$red: #ff6133;
+$pink: #FF3180;
+$yellow: #FFB831;
+$green: #31FFB8;
+$gray: #4D4D4D;
+$middle-gray: #cccccc;
+$light-gray: #F0F0F0;
+$black: #1C1C1C;
+$twitter: #55acee;
+
+// BreakPoint
+$breakpoints: (
+    xs: "(max-width:376px)",
+    s: "(max-width:579px)",
+    m: "(max-width:769px)",
+    l: "(max-width:993px)",
+    xl: "(max-width:1200px)"
+);
+
+// MediaQueries
+@mixin media($breakpoint) {
+    @media #{map-get($breakpoints, $breakpoint)} {
+        @content;
+    }
+}
+// placeholderの色変え
+@mixin placeholder($color) {
+    &::placeholder {
+        color: $color;
+    }
+    // IE
+    &:-ms-input-placeholder {
+        color: $color;
+    }
+    // Edge
+    &::-ms-input-placeholder {
+        color: $color;
+    }
+}
