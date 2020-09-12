@@ -16,9 +16,9 @@ require ('head.php');
 
 <!-- header -->
 <?php
-$intro = 'index.php#';
-$pickup = 'index.php#pickup';
-$works = 'index.php#works';
+$intro = 'index#';
+$pickup = 'index#pickup';
+$works = 'index#works';
 require ('header.php');
 ?>
 
@@ -60,7 +60,7 @@ require ('header.php');
             </label>
             <!-- ボタン -->
             <div class="c-buttonWrap -side">
-                <button type="button" class="c-button -sideN -border u-mr__10"><a href="index.php">もどる</a></button>
+                <button type="button" class="c-button -sideN -border u-mr__10"><a href="index">もどる</a></button>
                 <input type="submit" value="確認" class="c-button -sideY" id="js-submit">
             </div>
         </form>

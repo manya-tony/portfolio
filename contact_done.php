@@ -82,9 +82,9 @@ require ('head.php');
 
 <!-- header -->
 <?php
-$intro = 'index.php#';
-$pickup = 'index.php#pickup';
-$works = 'index.php#works';
+$intro = 'index#';
+$pickup = 'index#pickup';
+$works = 'index#works';
 require ('header.php');
 ?>
 
@@ -120,7 +120,7 @@ require ('header.php');
             <!-- ボタン -->
             <div class="c-buttonWrap">
                 <button type="button" class="c-button -border">
-                    <a href="index.php">もどる</a>
+                    <a href="index">もどる</a>
                 </button>
             </div>
         <?php endif;?>

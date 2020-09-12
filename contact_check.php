@@ -23,9 +23,9 @@ require ('head.php');
 
 <!-- header -->
 <?php
-$intro = 'index.php#';
-$pickup = 'index.php#pickup';
-$works = 'index.php#works';
+$intro = 'index#';
+$pickup = 'index#pickup';
+$works = 'index#works';
 require ('header.php');
 ?>
 
@@ -66,7 +66,7 @@ require ('header.php');
             </p>
             <!-- ボタン -->
             <div class="c-buttonWrap -side">
-                <button type="button" class="c-button -sideN -border u-mr__10"><a href="contact.php">もどる</a></button>
+                <button type="button" class="c-button -sideN -border u-mr__10"><a href="contact">もどる</a></button>
                 <?php if(!$tokenValidateError): ?>
                     <input type="submit" value="送信" class="c-button  -sideY">
                 <?php endif; ?>

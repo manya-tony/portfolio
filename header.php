@@ -5,7 +5,7 @@
     <div class="l-header__container">
         <!-- ロゴ -->
         <h1 class="l-header__logo">
-            <a href="index.php">なすまなみ</a>
+            <a href="index">なすまなみ</a>
         </h1>
         <!-- ナビゲーション -->
         <div class="l-header__navWrap">
@@ -16,7 +16,7 @@
             </ul>
             <!-- お問い合わせボタン -->
             <div class="l-header__contact">
-                <a href="contact.php">お問い合わせ</a>
+                <a href="contact">お問い合わせ</a>
             </div>
         </div>
     </div>

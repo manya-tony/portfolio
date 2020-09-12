@@ -120,7 +120,7 @@ require ('header.php');
                         twitter
                     </button>
                 </a>
-                <a href="contact.php">
+                <a href="contact">
                     <button class="c-button">
                         メールフォーム
                     </button>
